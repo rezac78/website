@@ -122,3 +122,26 @@ h3{
     color: #d43a53 !important;
     font-size-adjust: 15px;
 }
+
+#skillsH1Text{
+    display: inline;
+    text-shadow: 2px 2px 6px #d43a53;
+    margin-left: 43%;
+}
+
+.skillProgress{
+    width: 30%;
+    height: auto;
+    text-align-last: center;
+    float: left;
+}
+
+.progressBar{
+    width: 20%;
+    height: 20px;
+    background-image: linear-gradient(top rigth,#e37b8c,#e16b7b,#d4596b,#db475d,#d63146);
+    margin-left: 80px;
+    border-radius: 20px
+    
+    ;
+}
