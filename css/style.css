@@ -139,9 +139,11 @@ h3{
 .progressBar{
     width: 20%;
     height: 20px;
-    background-image: linear-gradient(top rigth,#e37b8c,#e16b7b,#d4596b,#db475d,#d63146);
+    background: #3498db;
     margin-left: 80px;
-    border-radius: 20px
-    
-    ;
+    border-radius: 20px;
+}
+
+.skillProgress h3{
+    padding-left: 150px;
 }
