@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="/css/ihover.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
 </head>
@@ -22,19 +23,83 @@
             </ul>
         </nav>
         <div class="">
-            <img src="pic/img-1.png" alt="imgInHeader" class="WOW animate__animated animate__bounceInLeft" id="imgForHeader">
+            <img src="pic/img-1.png" alt="imgInHeader" class="WOW animate__animated animate__bounceInLeft"
+                id="imgForHeader">
         </div>
         <div id="headerLeft">
             <h1 id="headerH1Text" class="WOW animate__animated animate__bounceInRight">تیم برنامه نویسی</h1>
-            <p id="headerPText" class="WOW animate__animated animate__bounceInRight">تخصصی ترین طرحی سایت با 75 سال سابقه درخشان</p>
+            <p id="headerPText" class="WOW animate__animated animate__bounceInRight">تخصصی ترین طرحی سایت با 75 سال
+                سابقه درخشان</p>
             <button id="orderBtn" class="WOW animate__animated animate__bounceInRight">سفارش سایت</button>
             <button id="backBtn" class="WOW animate__animated animate__bounceInRight">مشاوره قبل از سفارش</button>
         </div>
     </div>
+    <br/>
+    <hr/>
+    <br/>
+
+    <div id="content">
+        <div class="">
+            <h1 id="ourTeamText" >اعضای تیم ها</h1>
+        </div>
+        <br />
+        <div id="members">
+            <div class="row memberBox WOW animate__animated animate__bounceInLeft">
+                <div class="col-sm-6">
+
+                    <!-- normal -->
+                    <div class="ih-item circle effect11 left_to_right"><a href="#">
+                            <div class="img"><img src="pic/1.jpg" alt="img"></div>
+                            <div class="info">
+                                <h3>Steve Jobs</h3>
+                                <p>CEO of Apple</p>
+                            </div>
+                        </a></div>
+                    <!-- end normal -->
+
+                </div>
+            </div>
+            <div class="row memberBox WOW animate__animated animate__bounceInDown">
+                <div class="col-sm-6">
+
+                    <!-- normal -->
+                    <div class="ih-item circle effect11 left_to_right"><a href="#">
+                            <div class="img"><img src="pic/2.jpg" alt="img"></div>
+                            <div class="info">
+                                <h3>Elon Musk</h3>
+                                <p>CEO of Tesla Motors</p>
+                            </div>
+                        </a></div>
+                    <!-- end normal -->
+
+                </div>
+            </div>
+            <div class="row memberBox WOW animate__animated animate__bounceInRight">
+                <div class="col-sm-6">
+
+                    <!-- normal -->
+                    <div class="ih-item circle effect11 left_to_right"><a href="#">
+                            <div class="img"><img src="pic/3.jpg" alt="img"></div>
+                            <div class="info">
+                                <h3>Mark Zuckerberg</h3>
+                                <p>Chief Executive Officer of Facebook</p>
+                            </div>
+                        </a></div>
+                    <!-- end normal -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/js/core.js"></script>
     <script src="/js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
+    <script src="/js/js.js"></script>
 </body>
 
 </html>
