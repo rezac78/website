@@ -16,6 +16,7 @@ function myScrollFunction() {
     var myScrollTop = window.scrollY;
     if (myScrollTop >= 550 && skillFlag) {
         skillFlag=false
+        
         var Html = document.getElementById("Html");
         var HtmlWidth = Html.style.width;
         var HtmlTimer = setInterval(HtmlFrame, 10)
