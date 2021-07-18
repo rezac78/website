@@ -1,15 +1,26 @@
 var ourTeamText = document.getElementById('ourTeamText');
+var ourTeamSkills = document.getElementById('skillsH1Text');
 
-var typewriter = new Typewriter(ourTeamText, {
+
+var ourTeamTextTypewriter = new Typewriter(ourTeamText, {
     loop: true
 });
 
-typewriter.typeString('اعضای تیم ها')
+ourTeamTextTypewriter.typeString('اعضای تیم ها')
     .pauseFor(2500)
     .deleteAll()
     .start();
 
-
+    
+var ourTeamSkillsTypewriter = new Typewriter(ourTeamSkills, {
+        loop: true
+});
+    
+ourTeamSkillsTypewriter.typeString('مهارت های من')
+    .pauseFor(2500)
+    .deleteAll()
+    .start();
+    
 var skillFlag = true;
 
 function myScrollFunction() {
@@ -134,3 +145,5 @@ function myScrollFunction() {
         }
     }
 }
+
+
